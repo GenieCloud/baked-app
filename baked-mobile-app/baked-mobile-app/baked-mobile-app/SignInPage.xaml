@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="bakedmobileapp.SignInPage">
+    <StackLayout BackgroundColor="#FF6000">
+        <Label Text="Sign In" TextColor="#FFFFFF" FontSize="Large" Margin="20"/>
+        <Image Source="@drawable/bakedlogo" HeightRequest="200"/>
+        <StackLayout Orientation="Vertical" Margin="20">
+            <Entry x:Name="emailSignIn" HorizontalOptions="Fill" Placeholder="Email" PlaceholderColor="White" TextColor="White" Keyboard="Email"/>
+            <Entry x:Name="passwordSignIn" HorizontalOptions="Fill" Placeholder="Password" PlaceholderColor="White" TextColor="White" IsPassword="True"/>
+            <Button x:Name="signInButton" Text="Login" BackgroundColor="White" TextColor="#FF6000" TextTransform="None"/>
+        </StackLayout>
+
+        <Button x:Name="signUpButton" VerticalOptions="EndAndExpand" Text="New to Baked? Sign Up Now" TextTransform="None" Background="Transparent" TextColor="White"/>
+
+    </StackLayout>
+</ContentPage>
+

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ywm7iboHSURW+eTGM2umOMW+B9EOrTJNyewpFiYzOs3AsVh0ZtZ/Ar2rHz3ax9iQh39TWDEYaTP2O7QqfWPFg==",
+  "success": true,
+  "projectFilePath": "/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.csproj",
+  "expectedPackageFiles": [
+    "/Users/jmjon/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/xamarin.essentials/1.7.4/xamarin.essentials.1.7.4.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,38 @@
+﻿<Properties BuildWithMSBuildOnMono="True" StartupConfiguration="{E9590722-32DC-4D31-BEA3-A301FF32D978}|Default">
+  <MonoDevelop.Ide.ItemProperties.baked-mobile-app.Android PreferredExecutionTarget="Android.pixel_2_xl_-_api_30" AndroidDesignerPreferredTheme="MainTheme" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_xl_-_api_30" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app.Android/Resources/values/splashscreen.xml">
+    <Files>
+      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/styles.xml" Line="26" Column="11" />
+      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/colors.xml" Line="7" Column="51" />
+      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/splash_screen.xml" Line="1" Column="40" />
+      <File FileName="baked-mobile-app/baked-mobile-app.Android/MainActivity.cs" Line="10" Column="114" />
+      <File FileName="baked-mobile-app/baked-mobile-app.Android/SplashActivity.cs" Line="19" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="baked-mobile-app" expanded="True">
+            <Node name="baked-mobile-app" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="baked-mobile-app.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

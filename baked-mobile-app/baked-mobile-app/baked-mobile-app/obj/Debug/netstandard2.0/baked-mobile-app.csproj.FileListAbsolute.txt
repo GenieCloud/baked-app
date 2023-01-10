@@ -1,0 +1,17 @@
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/bin/Debug/netstandard2.0/baked-mobile-app.deps.json
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/bin/Debug/netstandard2.0/baked-mobile-app.dll
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/bin/Debug/netstandard2.0/ref/baked-mobile-app.dll
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/bin/Debug/netstandard2.0/baked-mobile-app.pdb
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.AssemblyInfoInputs.cache
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.AssemblyInfo.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.csproj.CoreCompileInputs.cache
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.dll
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/ref/baked-mobile-app.dll
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.pdb
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.csproj.AssemblyReference.cache

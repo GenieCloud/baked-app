@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "IDBjxaXS6LA66RSm8xLsDjbMIDjV1B3se9nLJeEfG9JZoAvZyBiPiUT5VZAxmrf3/KFaDMNIRg49x47ssHv03g==",
+  "success": true,
+  "projectFilePath": "/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.iOS/baked-mobile-app.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/jmjon/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/jmjon/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.4 to 1.7.0. Reference the package directly from the project to select a different version. \n baked_mobile_app.iOS -> baked-mobile-app -> Xamarin.Essentials (>= 1.7.4) \n baked_mobile_app.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2545 to 5.0.0.2196. Reference the package directly from the project to select a different version. \n baked_mobile_app.iOS -> baked-mobile-app -> Xamarin.Forms (>= 5.0.0.2545) \n baked_mobile_app.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="bakedmobileapp.SignUpPage">
+    <StackLayout Orientation="Vertical">
+        <Label Text="Sign Up" TextColor="#FF6000" FontSize="Large" Margin="20"/>
+
+        <StackLayout Orientation="Vertical" Margin="20">
+            <Entry x:Name="firstNameSignUp" HorizontalOptions="FillAndExpand" Placeholder="First Name" PlaceholderColor="#FF6000"/>
+            <Entry x:Name="lastNameSignUp" HorizontalOptions="FillAndExpand" Placeholder="Last Name" PlaceholderColor="#FF6000"/>
+            <Entry x:Name="usernameSignUp" Placeholder="Username" PlaceholderColor="#FF6000"/>
+            <Entry x:Name="emailSignUp" Placeholder="Email" Keyboard="Email" PlaceholderColor="#FF6000"/>
+            <Entry x:Name="passwordSignUp" HorizontalOptions="FillAndExpand" Placeholder="Password" IsPassword="True" PlaceholderColor="#FF6000"/>
+            <Entry x:Name="retypePasswordSignUp" HorizontalOptions="FillAndExpand" Placeholder="Retype Password" IsPassword="True" PlaceholderColor="#FF6000"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" Margin="20">
+            <Button x:Name="signUpButton" Text="Sign Up" TextTransform="None" BackgroundColor="#FF6000" TextColor="White"/>
+            <Button x:Name="signInButton" Text="Already Have An Account? Sign In" VerticalOptions="EndAndExpand" Background="transparent" TextTransform="None" TextColor="#FF6000"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+
