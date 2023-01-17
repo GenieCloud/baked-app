@@ -1,38 +1,48 @@
-﻿<Properties BuildWithMSBuildOnMono="True" StartupConfiguration="{E9590722-32DC-4D31-BEA3-A301FF32D978}|Default">
-  <MonoDevelop.Ide.ItemProperties.baked-mobile-app.Android PreferredExecutionTarget="Android.pixel_2_xl_-_api_30" AndroidDesignerPreferredTheme="MainTheme" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_xl_-_api_30" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app.Android/Resources/values/splashscreen.xml">
+﻿<Properties StartupConfiguration="{E9590722-32DC-4D31-BEA3-A301FF32D978}|Default" BuildWithMSBuildOnMono="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs">
     <Files>
       <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml.cs" />
       <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml" />
-      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/styles.xml" Line="26" Column="11" />
-      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/colors.xml" Line="7" Column="51" />
-      <File FileName="baked-mobile-app/baked-mobile-app.Android/Resources/values/splash_screen.xml" Line="1" Column="40" />
-      <File FileName="baked-mobile-app/baked-mobile-app.Android/MainActivity.cs" Line="10" Column="114" />
-      <File FileName="baked-mobile-app/baked-mobile-app.Android/SplashActivity.cs" Line="19" Column="10" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs" Line="54" Column="79" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SearchPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SearchPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/Favorites.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/Favorites.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/App.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/models/DataManager.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/models/User.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="baked-mobile-app" expanded="True">
             <Node name="baked-mobile-app" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-            </Node>
-            <Node name="baked-mobile-app.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="values" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="SdkDependencies" expanded="True" />
               </Node>
+              <Node name="models" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Favorites.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" />
+              <Node name="SignInPage.xaml" expanded="True" />
+              <Node name="SignUpPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_xl_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.baked-mobile-app.Android PreferredExecutionTarget="Android.pixel_2_xl_-_api_28" AndroidDesignerPreferredTheme="MainTheme" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

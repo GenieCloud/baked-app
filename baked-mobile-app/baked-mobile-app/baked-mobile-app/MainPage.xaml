@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="baked_mobile_app.MainPage">
+             x:Class="baked_mobile_app.MainPage" BackgroundImageSource="@drawable/foodimagebackground.png">
 
-    <StackLayout BackgroundColor="#FF6000">
-        <Image Source="@drawable/bakedlogo" VerticalOptions="CenterAndExpand"/>
+    <StackLayout BackgroundColor="Transparent">
+        <Image Source="@drawable/bakedlogo" VerticalOptions="CenterAndExpand" HeightRequest="300"/>
         <Button x:Name="splashScreenButton" Text="Let's Eat" BackgroundColor="White" TextColor="#FF6000"/>
     </StackLayout>
 

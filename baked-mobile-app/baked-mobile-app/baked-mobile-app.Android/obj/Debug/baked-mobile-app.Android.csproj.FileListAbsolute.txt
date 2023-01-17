@@ -650,3 +650,4 @@
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app.Android/obj/Debug/res/drawable/foodimagebackground.jpg

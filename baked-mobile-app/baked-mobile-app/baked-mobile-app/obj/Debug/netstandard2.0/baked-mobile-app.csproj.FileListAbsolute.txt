@@ -15,3 +15,5 @@
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/ref/baked-mobile-app.dll
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.pdb
 /Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/baked-mobile-app.csproj.AssemblyReference.cache
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/Favorites.xaml.g.cs
+/Users/jmjon/Desktop/baked-app/baked-mobile-app/baked-mobile-app/baked-mobile-app/obj/Debug/netstandard2.0/SearchPage.xaml.g.cs
