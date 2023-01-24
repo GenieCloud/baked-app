@@ -3,22 +3,30 @@ using System.Collections.Generic;
 using bakedmobileapp.models;
 using System.IO;
 using Xamarin.Forms;
+using baked_mobile_app;
+using System.Linq;
 
 namespace bakedmobileapp
 {
 	public partial class SignUpPage : ContentPage
 	{
-		public SignUpPage ()
+        public SignUpPage ()
 		{
 			InitializeComponent ();
             //Opens the Sign In Page.
             signInButton.Clicked += SignInButton_Clicked;
+            //Saves the user for sigining into the mobile app.
             signUpButton.Clicked += SignUpButton_Clicked;
-		}
+        }
 
         private async void SignUpButton_Clicked(object sender, EventArgs e)
         {
-            var users = Directory.EnumerateFiles(baked_mobile_app.App.FolderPath, "*.bakedmobileapp.txt");
+            var users = Directory.EnumerateFiles(App.FolderPath, "*.bakedmobileapp.txt");
+
+            var userData = new User();
+
+            //Check for duplicate emails and usernames.
+            bool duplicateEmailUsername = false;
 
             //Check if fields are empty
             if (String.IsNullOrEmpty(firstNameSignUp.Text) || String.IsNullOrEmpty(lastNameSignUp.Text) || String.IsNullOrEmpty(usernameSignUp.Text) || String.IsNullOrEmpty(passwordSignUp.Text) || String.IsNullOrEmpty(retypePasswordSignUp.Text))
@@ -33,6 +41,36 @@ namespace bakedmobileapp
             {
                 await DisplayAlert("Passwords do not match.", "Please make sure the password and retype password match.", "OK");
             }
+
+            foreach (var user in users)
+            {
+                using (var reader = new StreamReader(user))
+                {
+                    userData.FirstName = reader.ReadLine();
+                    userData.LastName = reader.ReadLine();
+                    userData.UserName = reader.ReadLine();
+                    userData.Email = reader.ReadLine();
+                    userData.Password = reader.ReadLine();
+                    userData.RetypePassword = reader.ReadLine();
+                }
+
+                if (String.Compare(userData.Email, emailSignUp.Text) == 0 || String.Compare(userData.UserName, usernameSignUp.Text) == 0)
+                {
+                    duplicateEmailUsername = true;
+
+                    break;
+                }
+            }
+
+            if (duplicateEmailUsername)
+            {
+                await DisplayAlert("Success!", "Your registration is complete!", "OK");
+                SaveUser();
+                await Navigation.PushAsync(new SignInPage
+                {
+                    BindingContext = userData
+                });
+            }
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)
@@ -42,13 +80,14 @@ namespace bakedmobileapp
 
         private void SaveUser()
         {
-            string filename = Path.Combine(baked_mobile_app.App.FolderPath, $"{Path.GetRandomFileName()}.bakedmobileapp.txt");
+            string filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.bakedmobileapp.txt");
 
             using (var writer = new StreamWriter(filename))
             {
                 writer.WriteLine(firstNameSignUp.Text);
                 writer.WriteLine(lastNameSignUp.Text);
                 writer.WriteLine(usernameSignUp.Text);
+                writer.WriteLine(emailSignUp.Text);
                 writer.WriteLine(passwordSignUp.Text);
                 writer.WriteLine(retypePasswordSignUp.Text);
             }
