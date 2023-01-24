@@ -48,7 +48,7 @@ namespace bakedmobileapp
                     break;
                 }
             }
-            //f
+            //If user found, display success alert and sign in.
             if (registeredUserFound)
             {
                 await DisplayAlert("User Found.", "Signing In...", "OK");

@@ -41,7 +41,7 @@ namespace bakedmobileapp
             {
                 await DisplayAlert("Passwords do not match.", "Please make sure the password and retype password match.", "OK");
             }
-
+            //Make sure all data is accounted for using a StreamReader
             foreach (var user in users)
             {
                 using (var reader = new StreamReader(user))
@@ -53,15 +53,16 @@ namespace bakedmobileapp
                     userData.Password = reader.ReadLine();
                     userData.RetypePassword = reader.ReadLine();
                 }
-
-                if (String.Compare(userData.Email, emailSignUp.Text) == 0 || String.Compare(userData.UserName, usernameSignUp.Text) == 0)
+                //Compare the userData.Email and emailSignUp.Text to confirm the email is not taken.
+                //Compare the userData.Username and usernameSignUp.Text to confirm the username is not taken.
+                if (String.Compare(userData.Email, emailSignUp.Text) == 0 && String.Compare(userData.UserName, usernameSignUp.Text) == 0)
                 {
                     duplicateEmailUsername = true;
 
                     break;
                 }
             }
-
+            //Check if the Email/Username is available and provide 
             if (duplicateEmailUsername)
             {
                 await DisplayAlert("Success!", "Your registration is complete!", "OK");
@@ -70,6 +71,10 @@ namespace bakedmobileapp
                 {
                     BindingContext = userData
                 });
+            }
+            else
+            {
+                await DisplayAlert("Username/Email already in use.", "Please use another email or username.", "OK");
             }
         }
 

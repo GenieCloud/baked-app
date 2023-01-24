@@ -7,14 +7,14 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs">
     <Files>
-      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml" Line="1" Column="1" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs" Line="59" Column="20" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml" Line="1" Column="1" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs" Line="57" Column="19" />
-      <File FileName="baked-mobile-app/baked-mobile-app/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="baked-mobile-app/baked-mobile-app/models/User.cs" Line="1" Column="1" />
+      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs" Line="77" Column="114" />
+      <File FileName="baked-mobile-app/baked-mobile-app/App.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/models/User.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +29,7 @@
               <Node name="Favorites.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="SearchPage.xaml" expanded="True" />
-              <Node name="SignInPage.xaml" expanded="True" selected="True" />
+              <Node name="SignInPage.xaml" expanded="True" />
               <Node name="SignUpPage.xaml" expanded="True" />
             </Node>
           </Node>
