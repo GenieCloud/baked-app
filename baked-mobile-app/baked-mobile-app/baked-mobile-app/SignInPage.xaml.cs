@@ -61,7 +61,6 @@ namespace bakedmobileapp
             else
             {
                 await DisplayAlert("User Not Found.", "Please try signing again.", "OK");
-
             }
 
         }

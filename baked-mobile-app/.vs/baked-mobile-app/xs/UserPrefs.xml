@@ -5,14 +5,14 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs">
     <Files>
       <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml.cs" />
       <File FileName="baked-mobile-app/baked-mobile-app/MainPage.xaml" />
       <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignInPage.xaml.cs" Line="44" Column="18" />
       <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml" />
-      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs" Line="77" Column="114" />
+      <File FileName="baked-mobile-app/baked-mobile-app/SignUpPage.xaml.cs" Line="80" Column="76" />
       <File FileName="baked-mobile-app/baked-mobile-app/App.xaml.cs" />
       <File FileName="baked-mobile-app/baked-mobile-app/models/User.cs" />
     </Files>

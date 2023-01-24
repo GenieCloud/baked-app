@@ -62,7 +62,7 @@ namespace bakedmobileapp
                     break;
                 }
             }
-            //Check if the Email/Username is available and provide 
+            //Check if the Email/Username is available and display alerts whether there is a successful login or not.
             if (duplicateEmailUsername)
             {
                 await DisplayAlert("Success!", "Your registration is complete!", "OK");
@@ -77,12 +77,12 @@ namespace bakedmobileapp
                 await DisplayAlert("Username/Email already in use.", "Please use another email or username.", "OK");
             }
         }
-
+        //When the SignIn button for a user with an account already exists.
         private void SignInButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();
         }
-
+        //Method for saving the user to a local txt file.
         private void SaveUser()
         {
             string filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.bakedmobileapp.txt");
